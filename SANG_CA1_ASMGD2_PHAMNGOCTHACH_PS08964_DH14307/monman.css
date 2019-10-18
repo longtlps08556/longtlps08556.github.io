@@ -1,0 +1,125 @@
+.mot{
+	width: 100%;
+	position: relative;
+	height: 450px;
+	border: 2px solid black;
+	margin: 20px auto;
+}
+.text-trai {
+    width: 441px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+}
+.hinh {
+    background-color: blue;
+    width: 630px;
+    height: 409px;
+    position: absolute;
+    left: 29%;
+}
+.hinh img {
+    width: 638px;
+}
+.text-phai {
+    width: 441px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+.khung-chua{
+	display: inline-block;
+}
+.menu {
+	height: 250px;
+	margin: auto;
+	background-image: url(image/h1.png);
+    background-size: cover;
+    background-repeat: none;
+    /* width: 100%; */
+    height: 695px;
+    position: relative;
+}
+.menu img {
+	width: auto;
+	height: 200px;
+	position: absolute;
+}
+.thanhphan li{
+	line-height: 40px;
+	padding: 10px 11px;
+	font-size: 23px;
+	font-family: 'Roboto', sans-serif;
+}
+.thanhphan a {
+  text-decoration: none;
+  color: red;
+  display: block;
+}
+.thanhphan ul {
+  list-style-type: none;
+  text-align: center;
+  background-color: #f8dac3;
+  }
+.thanhphan ul li{
+	display: inline-block;
+	width: 253px;
+	background-color: #f8dac3;
+}
+.textphai{
+	padding: 15px;
+	font-size: 28px;
+	text-align: center;
+	font-family: Helvetica;
+	border: 3px solid #36b5bb;
+	margin: 20px;
+	border-radius: 20px;
+	background-color: white;
+}
+.texttrai{
+	font-size: 25px;
+	text-align: justify;
+	font-family: Helvetica;
+	padding: 40px;
+}
+
+.mot img {
+width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(img/thuonghieu.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.footer {
+    background-color: black;
+    color: darkgrey;
+    position: relative;
+
+}
+.diachi {
+    padding: 23px 46px;
+}
+
+.diachi p {
+    margin-bottom: 2px;
+}
+.button {
+    z-index: 1000;
+    position: relative;
+    top: 50px;
+    float: left;
+    background-color: #ab2;
+    padding: 0px 35px;
+    text-align: center;
+    left: 5%;
+    border-radius: 100px;
+}
+
+.button p {
+    color: white;
+}
+.button:hover {
+    background-color: rgb(159, 25, 11);
+}

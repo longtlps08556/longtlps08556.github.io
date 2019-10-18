@@ -1,0 +1,83 @@
+.boxcenter {
+    width: 1480px;
+    margin: 0 auto;
+}
+
+.drink {
+    margin-left: 30px;
+    float: left;
+    margin-top: 20px;
+    /*background-color: rgba(41, 39, 39, 0.6);*/
+    width: 30%;
+    border-radius: 5px;
+    height: 300px;
+    color: black;
+    border: 1px solid black;
+}
+
+.box1 {
+    width: 40%;
+    float: left;
+    top: 20px;
+    left: 20px;
+    position: relative;
+}
+
+.box2 {
+    float: left;
+    position: relative;
+    width: 60%;
+    left: 7%;
+}
+
+.box3 {
+    z-index: 998;
+    position: relative;
+    top: 50px;
+    float: left;
+    background-color: #58991a;
+    padding: 0px 35px;
+    text-align: center;
+    left: 25%;
+    border-radius: 5px;
+}
+
+.box3 p {
+    color: white;
+}
+
+.box3:hover {
+    background-color: rgb(238, 62, 62);
+}
+
+.logo {
+    background-image: url("img/banner.jpg");
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.end1 img {
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.address-menu {
+    clear: both;
+    background-color: gray;
+    height: 120px;
+}
+
+.address-menu h1 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+.address-menu p {
+   font-family: 'Lora', serif;
+    font-size:  13px;
+}

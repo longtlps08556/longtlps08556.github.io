@@ -1,0 +1,79 @@
+.Letter-Head {
+    background-image: url(h1.png);
+    background-size: cover;
+    background-repeat: none;
+    /* width: 100%; */
+    height: 695px;
+    position: relative;
+}
+.dieuhuong a {
+    color: black;
+    font-size: 20px;
+}
+.canh-raucu h2 {
+    color: #ffcc33;
+}
+.canh-raucu h1 {
+    color: black;
+}
+.canh-raucu a {
+    color: black;
+    
+}
+.suong-ham h2 {
+    color: #ffcc33;
+}
+.suong-ham h1{
+    color: black;
+}
+.suong-ham a {
+    color: black
+}
+.canh-chuacaloc h2 {
+    color: #ffcc33;
+}
+.canh-chuacaloc h1 {
+    color: black
+}
+.canh-chuacaloc a {
+    color : black
+}
+.canh-suon-dau h2 {
+        color: #ffcc33;
+}
+.chabong h2 {
+    color: #ffcc33;}
+
+#menu li {
+    color: #f1f1f1;
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+  #menu ul {
+    background: #006633;
+    list-style-type: none;
+    overflow: hidden;
+    width: 1462px;
+    position: absolute;
+    bottom: -16px;
+    overflow-x: hidden
+  }
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  #menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+  td {
+    margin-left: 10px;
+    padding: 123px;
+    border: none;
+}
+tr {
+    border: none;
+}
